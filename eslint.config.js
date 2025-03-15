@@ -11,7 +11,7 @@ export default defineConfig(
   { ignores: ['dist', 'node_modules', '/build', '*.css'] },
   {
     files: ['**/*.{js,jsx}'],
-    // extends: ['plugin:react/recommended'],
+    extends: ['plugin:react/recommended'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
