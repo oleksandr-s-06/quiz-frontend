@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { Heading } from '../../components/heading/Heading.jsx';
 import { Progress } from './components/Progress.jsx';
 import styles from './progress-page.module.css';
 

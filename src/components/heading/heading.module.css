@@ -10,7 +10,7 @@
     line-height: 1.2;
     font-weight: 700;
     text-align: center;
-    max-width: 295px; /* TODO fix width */
+    max-width: 295px;
 }
 
 .title.strong {

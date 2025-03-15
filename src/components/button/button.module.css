@@ -2,7 +2,7 @@
     padding: 1rem 1.5rem;
     background-color: var(--pink);
     border-radius: 2rem;
-    cursor:  pointer;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 

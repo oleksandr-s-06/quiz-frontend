@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router';
 import Chevron from '../../assets/icons/chevron-left.svg?react';
 import Dots from '../../assets/icons/dots.svg?react';
-import { ROUTES } from '../../router/router.constants.js';
 import { getLocationLanguage } from '../../utils/getLocationLanguage.js';
 import { LocationSteps, useGetCurrentStep } from '../../utils/useGetCurrentStep.js';
 import styles from './header.module.css';
