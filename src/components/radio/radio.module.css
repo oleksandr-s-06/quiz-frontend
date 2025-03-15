@@ -1,0 +1,51 @@
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-purple);
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    border: 2px solid transparent;
+    gap: 0.5rem;
+}
+
+.icon {
+    width: 3.25rem;
+}
+
+.icon img {
+    object-fit: cover;
+}
+
+.item span {
+    color: var(--white);
+    font-size: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+
+.item input[type="radio"] {
+    display: none;
+}
+
+.item:hover {
+    background-color: rgb(from var(--pink) r g b / 0.25);
+}
+
+.item.selected {
+    font-weight: 600;
+    background-color: rgb(from var(--pink) r g b / 0.25);
+    border-color: var(--pink);
+}
+
+

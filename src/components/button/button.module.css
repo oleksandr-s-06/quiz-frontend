@@ -1,0 +1,16 @@
+.button {
+    padding: 1rem 1.5rem;
+    background-color: var(--pink);
+    border-radius: 2rem;
+    cursor:  pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover:not(:disabled) {
+    background-color: rgb(from var(--pink) r g b / 0.75);
+}
+
+.button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}

@@ -1,0 +1,18 @@
+.container {
+    padding: 2.75rem 1.75rem 0;
+}
+
+.heading {
+    margin-bottom: 2.75rem;
+}
+
+.select {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.select label {
+    flex-direction: column;
+    width: fit-content;
+    padding: 1.875rem 1.5rem;
+}

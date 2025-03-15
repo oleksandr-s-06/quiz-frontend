@@ -1,0 +1,10 @@
+.container {
+    padding: 2.75rem 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.heading {
+    margin-bottom: 2.75rem;
+}
